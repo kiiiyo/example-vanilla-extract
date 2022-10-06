@@ -1,9 +1,7 @@
+import { Pages } from "@/components";
+
 function App() {
-  return (
-    <div>
-      <h1>Example</h1>
-    </div>
-  );
+  return <Pages.HomePage />;
 }
 
 export default App;
