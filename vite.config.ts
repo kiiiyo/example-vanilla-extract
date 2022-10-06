@@ -5,11 +5,9 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  root: "./src",
   plugins: [react(), vanillaExtractPlugin()],
   resolve: {
     alias: {
-      // eslint-disable-next-line no-undef
       "@/": path.join(__dirname, "src/"),
     },
   },
