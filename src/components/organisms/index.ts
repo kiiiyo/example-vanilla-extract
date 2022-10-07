@@ -1,2 +1,2 @@
-export * from "./global-footer";
-export * from "./global-header";
+export * from "./site-footer";
+export * from "./site-header";
