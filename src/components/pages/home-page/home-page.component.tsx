@@ -1,10 +1,10 @@
-import { Templates } from "@/components";
+import { Organisms, Templates } from "@/components";
 
 export const HomePage = () => {
   return (
     <Templates.GenericTemplate
-      header={<div>Header</div>}
-      footer={<div>footer</div>}
+      header={<Organisms.GlobalHeader />}
+      footer={<Organisms.GlobalFooter />}
     >
       <div>Main</div>
     </Templates.GenericTemplate>

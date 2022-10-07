@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import * as styles from "./styles.css";
 
 export type Props = {
   header?: React.ReactNode;
@@ -8,12 +8,10 @@ export type Props = {
 
 export const GenericTemplate = ({ header, footer, children }: Props) => {
   return (
-    <Fragment>
-      <div>{header}</div>
-      <div>
-        <main>{children}</main>
-      </div>
-      <div>{footer}</div>
-    </Fragment>
+    <div className={styles.pageContainer}>
+      <div className={styles.headerContainer}>{header}</div>
+      <main className={styles.mainContainer}>{children}</main>
+      <div className={styles.footerContainer}>{footer}</div>
+    </div>
   );
 };

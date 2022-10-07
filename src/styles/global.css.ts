@@ -7,3 +7,7 @@ globalStyle("html, body", {
   WebkitFontSmoothing: "antialiased",
   MozOsxFontSmoothing: "grayscale",
 });
+
+globalStyle("#root", {
+  margin: 0,
+});
