@@ -1,6 +1,7 @@
 import { style } from "@vanilla-extract/css";
 
 export const root = style({
+  borderTop: "1px solid #d2d3d7", // TODO
   backgroundColor: "fafafa", // TODO
 });
 
